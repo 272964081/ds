@@ -25,3 +25,6 @@ input {
 .fr{
 	float: right;
 }
+.cl{
+	clear: both;
+}

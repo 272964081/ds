@@ -213,6 +213,119 @@
 	font-size: 12px;
 }
 
+/*banner部分*/
+.banner-bar{
+	height: 326px;
+	width: 810px;
+	float: right;
+	overflow: hidden;
+	position: relative;
+}
+.imgBox{
+	width: 1620px;
+	height: 326px;
+	position: absolute;
+	left: 0px;
+	top:0;
+}
 
+.imgBox li{
+	width: 810px;
+	height: 326px;
+	float: left;
+	background: #ccc;
+}
+.imgBox li img{
+	width: 810px;
+	height: 326px;
+}
+.num{
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	left: 0;
+	bottom: 15px;
+}
+.num a{
+	display: inline-block;
+	height: 5px;
+	width: 20px;
+	background-color: #fff;
+	margin: 0 3px;
+}
 
+.num .num-active{
+	background-color: #FF7700;
+}
 
+/*mainList区域*/
+.mainList-box{
+	height: 500px;
+}
+.listTitle{
+	height: 75px;
+	width: 100%;
+}
+.left img{
+	margin: 15px 0;
+}
+.left h1{
+	font-size: 24px;
+	line-height: 75px;
+	margin-left: 12px;
+	font-weight: normal;
+}
+.right a{
+	font-size: 12px;
+	font-family: "新宋体";
+	line-height: 75px;
+	margin-right: 20px;
+}
+.listContent{
+	height: 400px;
+	width: 100%;
+}
+
+.list-ad {
+	height: 400px;
+	width: 190px;
+	overflow: hidden;
+}
+/*产品主列表大图部分*/
+.list-shopping li{
+	text-align: center;
+}
+.list-shopping li{
+	border: 1px solid #CCCCCC;
+	border-left: 0;
+	float: left;
+	height: 280px;
+	width: 200px;
+}
+.list-shopping li .bigPic a{
+	display: block;
+	margin-top: 45px;
+}
+.bigPic-des {
+	margin-top: 20px !important;
+	margin-bottom: 20px;
+}
+.bigPic-des h2{
+	font-size: 16px;
+}
+.bigPic-des span{
+	color: #FF7300;
+}
+/*产品主列表小图部分*/
+.smallPic{
+	border-right: 1px solid #CCC;
+	border-bottom: 3px solid #FF7201;
+	min-height: 114px;
+}
+.sPic{
+	display: block;
+	text-align: left;
+	float: left;
+	margin-top: 30px;
+	margin-left: 15px;
+}
