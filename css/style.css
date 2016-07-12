@@ -239,6 +239,7 @@
 	width: 810px;
 	height: 326px;
 }
+/*图片指示器*/
 .num{
 	position: absolute;
 	text-align: center;
@@ -260,7 +261,7 @@
 
 /*mainList区域*/
 .mainList-box{
-	height: 500px;
+	height: 475px;
 }
 .listTitle{
 	height: 75px;
@@ -275,10 +276,13 @@
 	margin-left: 12px;
 	font-weight: normal;
 }
+.right{
+	margin-top: 35px;
+}
 .right a{
 	font-size: 12px;
 	font-family: "新宋体";
-	line-height: 75px;
+	/*line-height: 75px;*/
 	margin-right: 20px;
 }
 .listContent{
@@ -306,11 +310,14 @@
 	width: 200px;
 }
 .bigPic{
-	height: 280px;
+	height: 235px;
+	padding-top: 45px;
+	border: 1px solid #CCC;
+	border-left: 0;
+
 }
 .bigPic a{
 	display: block;
-	margin-top: 45px;
 }
 .bigPic-des {
 	margin-top: 20px !important;
@@ -326,7 +333,7 @@
 .smallPic{
 	border-right: 1px solid #CCC;
 	border-bottom: 3px solid #FF7201;
-	min-height: 114px;
+	min-height: 115px;
 	text-align: left;
 }
 .sPic{
