@@ -292,17 +292,23 @@
 	overflow: hidden;
 }
 /*产品主列表大图部分*/
+.list-shopping{
+	width: 100%;
+	height: 400px;
+}
 .list-shopping li{
 	text-align: center;
 }
 .list-shopping li{
-	border: 1px solid #CCCCCC;
 	border-left: 0;
 	float: left;
-	height: 280px;
+	height: 400px;
 	width: 200px;
 }
-.list-shopping li .bigPic a{
+.bigPic{
+	height: 280px;
+}
+.bigPic a{
 	display: block;
 	margin-top: 45px;
 }
@@ -321,11 +327,33 @@
 	border-right: 1px solid #CCC;
 	border-bottom: 3px solid #FF7201;
 	min-height: 114px;
+	text-align: left;
 }
 .sPic{
 	display: block;
 	text-align: left;
 	float: left;
-	margin-top: 30px;
-	margin-left: 15px;
+	margin-top: 25px;
+	margin-left: 10px;
+}
+.sPic-des{
+	font-size: 12px;
+	display: inline-block;
+	float: right;
+	height: 35px;
+	width: 100px;
+	margin-top: 25px;
+	margin-right: 5px;
+}
+.sPic-des:hover{
+	color: #FF7300;
+}
+.smallPic-price{
+	font-size: 16px;
+	font-weight: normal;
+	text-align: center;
+}
+.smallPic-price span{
+	font-size: 14px;
+	color: #666666;
 }
