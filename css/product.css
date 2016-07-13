@@ -1,0 +1,38 @@
+.mainContent{
+	overflow: hidden;
+	margin-top: 17px;
+}
+
+.leftArea{
+	font-family: "宋体";
+	width: 183px;
+	border: 1px solid #D7D7D7;
+	background-color: #F3F3F3;
+}
+.left-title h3{
+	text-align: center;
+	line-height: 35px;
+	border-bottom: 1px solid #D7D7D7;
+}
+.left-item{
+	padding: 0 20px;
+	border-bottom: 1px dotted #D7D7D7;
+	margin-bottom: -1px;
+}
+.left-item dt{
+	font-weight: bold;
+	line-height: 35px;
+}
+.left-item dd{
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+.left-item dd a{
+	float: left;
+ display: block;
+ line-height: 24px;
+ width: 71px;
+}
+.left-item dd a:hover{
+	text-decoration: underline;
+}

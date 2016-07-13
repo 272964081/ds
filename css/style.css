@@ -395,9 +395,10 @@
 .copy-info a{
 	color: black;
 }
-.copy-info{
+.copy-info p{
 	line-height: 27px;
 }
+
 .copy-images{
 	margin-top: 35px;
 }
