@@ -115,6 +115,7 @@
 .shopClass-left{
 	position: absolute;
 	width: 100%;
+	height: 326px;
 	top: 35px;
 	left: 0;
 }
@@ -215,30 +216,46 @@
 
 /*banner部分*/
 .banner-bar{
-	height: 326px;
-	width: 810px;
-	float: right;
+	/*height: 326px;
+	width: 810px;*/
 	overflow: hidden;
 	position: relative;
 }
 .imgBox{
-	width: 1620px;
-	height: 326px;
+	/*width: 1620px;
+	height: 326px;*/
 	position: absolute;
 	left: 0px;
 	top:0;
 }
 
 .imgBox li{
-	width: 810px;
-	height: 326px;
+	/*width: 810px;
+	height: 326px;*/
 	float: left;
 	background: #ccc;
 }
-.imgBox li img{
+/*.banner 下的循环图片宽度设置*/
+.banner .imgBox li img,.banner .banner-bar,.banner .imgBox li{
 	width: 810px;
 	height: 326px;
 }
+.banner .imgBox{
+	width: 1620px;
+	height: 326px;
+}
+/*.listContent 下的宽度设置*/
+.listContent .imgBox li img, .listContent .banner-bar,.listContent .imgBox li{
+	width: 190px;
+	height: 400px;
+}
+.listContent .imgBox{
+	width: 380px;
+	height: 400px;
+}
+
+
+
 /*图片指示器*/
 .num{
 	position: absolute;
@@ -282,7 +299,6 @@
 .right a{
 	font-size: 12px;
 	font-family: "新宋体";
-	/*line-height: 75px;*/
 	margin-right: 20px;
 }
 .listContent{
@@ -363,4 +379,29 @@
 .smallPic-price span{
 	font-size: 14px;
 	color: #666666;
+}
+/*版权部分*/
+.footer{
+	height: 220px;
+	background-color: #D4D4D4;
+	width: 100%;
+	font-size: 12px;
+	font-family: "新宋体";
+	text-align: center;
+	margin-top: 40px;
+	padding-top: 52px;
+	box-sizing: border-box;
+}
+.copy-info a{
+	color: black;
+}
+.copy-info{
+	line-height: 27px;
+}
+.copy-images{
+	margin-top: 35px;
+}
+.copy-images a{
+	display: inline-block;
+	margin-right: 28px;
 }
