@@ -13,26 +13,98 @@
 	text-align: center;
 	line-height: 35px;
 	border-bottom: 1px solid #D7D7D7;
+
 }
 .left-item{
 	padding: 0 20px;
+	_padding:0 20px 0 20px;/*ie6 hack*/
 	border-bottom: 1px dotted #D7D7D7;
 	margin-bottom: -1px;
 }
 .left-item dt{
 	font-weight: bold;
 	line-height: 35px;
+	_width: 143px; /*ie6 hack*/
 }
 .left-item dd{
 	overflow: hidden;
 	margin-bottom: 10px;
+	_margin-bottom: 25px; /*ie6 hack*/
 }
 .left-item dd a{
 	float: left;
- display: block;
- line-height: 24px;
- width: 71px;
+	display: block;
+	line-height: 24px;
+	width: 71px;
 }
 .left-item dd a:hover{
 	text-decoration: underline;
+}
+.rightArea{
+	width: 810px;
+}
+/*商品列表部分*/
+.product-list-item{
+	width: 100%;
+}
+    /*列表头部*/
+.product-list-item .item-title{
+	height: 40px;
+	border-bottom: 2px solid #CCC;
+	margin-top: 25px;
+}
+.item-title h3{
+	font-size: 16px;
+	width: 25%;
+	line-height: 40px;
+	text-indent: 10px;
+	border-bottom: 2px solid #096DBA;
+	margin-bottom: -2px; /*ie6 hack*/
+	position: relative;
+}
+ 	/*商品信息*/
+.item-info{
+	min-height: 560px;
+	width: 100%;
+}
+.item-info ul li{
+	float: left;
+	width: 25%;
+	_width:24.9%;
+	height: 280px;
+}
+
+.item-info .products-des{
+	font-size: 13px;
+	display: block;
+	line-height: 18px;
+	padding: 0 15px;
+}
+.products-des:hover{
+	text-decoration: underline;
+}
+.products-price{
+	font-weight: bold;
+	color: #D4105A;
+	display: block;
+	text-indent: 15px;
+	line-height: 32px;
+}
+.comment{
+	text-indent: 15px;
+}
+.comment span{
+	line-height: 15px;
+	text-align: center;
+}
+.comment .score{
+	height: 15px;
+	width: 80px;
+	display: inline-block;
+	background-color: #ccc;
+	margin-left: 5px;
+	background: url(../images/icon/star.jpg) repeat-x;
+}
+.comment a{
+	color: #085C9B;
 }

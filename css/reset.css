@@ -1,8 +1,9 @@
-div,ul,li,body,html,strong,dl,dd,dt,em,input,h1,h2,h3,h4,h5,h6,p,img,button{
+div,ul,li,body,html,strong,dl,dd,dt,em,input,h1,h2,h3,h4,h5,h6,p,img,button,a{
 	padding: 0;
 	margin: 0;
 	font-family: "微软雅黑";
 	font-size: 14px;
+	border: 0;
 }
 a{
 	text-decoration: none;
