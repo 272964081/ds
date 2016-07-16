@@ -75,8 +75,56 @@
 
 /*筛选菜单*/
 .selectMenu{
-	height: 350px;
-	background-color: #CCC;
+	width: auto;
+	min-height: 250px;
+}
+.selectMenu dl{
+	overflow: hidden;
+	border-bottom: 1px dotted #D7D7D7;
+	padding: 10px 0;
+}
+.selectMenu dl a {
+	display: block;
+}
+.selectMenu dl:first-child{
+	border-bottom: 1px solid #D7D7D7;
+}
+.selectMenu dt,.selectMenu dd{
+	float: left;
+}
+.selectMenu dd{
+	width: auto;
+	margin-right: 25px;
+	line-height: 22px;
+}
+.selectMenu dd a{
+	color: #1D7AD9;
+}
+.selectMenu dt{
+	width: 90px;
+	margin-right: 40px;
+	text-align: right;
+	color: #999999;
+}
+
+.selectMenu dl .isLimit{
+	color: #FFF ;
+	display: inline-block;
+	background-color: #1D7AD9;
+	padding: 0 2px;
+}
+.select-more{
+	width: 40px;
+	color: black !important;
+	float: right;
+	margin-right: 35px;
+	background: url(../images/select-arrow-down.gif) no-repeat right center;
+}
+
+
+.selectMenu dl select{
+	border: 1px solid #D7D7D7;
+	margin-right: 10px;
 }
 
 /*筛选产品信息*/
@@ -131,6 +179,12 @@
 	margin-left: 3px;
 	color: black;
 }
+
+.pagesBox{
+	height: 40px;
+	background-color: #CCC;
+}
+
 
  	/*商品信息*/
 .item-info{

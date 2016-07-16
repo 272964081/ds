@@ -4,7 +4,7 @@ div,ul,li,body,html,strong,dl,dd,dt,em,input,h1,h2,h3,h4,h5,h6,p,img,button,a,se
 	font-family: "微软雅黑";
 	font-size: 14px;
 	border: 0;
-	background: none;
+	/*background: none;*/
 }
 a{
 	text-decoration: none;
