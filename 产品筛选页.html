@@ -273,7 +273,7 @@
 						</div>
 					</div> <!-- left end -->
 					<div class="amount fr">
-						<input type="checkbox"><span class="amount1">仅显示有货</span>共<span class="amount2">2155</span>件商品
+						<input type="checkbox" id="just"><label for="just"> 仅显示有货</label>共<span class="amount2">2155</span>件商品
 					</div><!--  amount end -->
 				</div> <!-- selectInfo-title end -->
 				<div class="item-info">
@@ -403,7 +403,23 @@
 				</div>
 			</div>
 		</div> <!-- rightArea end -->
-		<div class="pagesBox cl">页码区</div>
+		<div class="pagesBox cl">
+			<ul>
+				<li><a href="#" class="unClick">上一页</a></li>
+				<li><a href="#" class="pagesBox-active">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">4</a></li>
+				<li><a href="#">5</a></li>
+				<li><a href="#">6</a></li>
+				<li><a href="#">7</a></li>
+				<li><a href="#">8</a></li>
+				<li><a href="#">···</a></li>
+				<li><a href="#">200</a></li>
+				<li><a href="#">下一页</a></li>
+				<div class="pagesBox-jump fr">共200页，到第<input type="text" value="2">页 <button>确定</button></div>
+			</ul>
+		</div>
 	</div><!-- mainContent end -->
 	
 
