@@ -5,6 +5,7 @@
 .white_bg{
 	background-color: #fff;
 }
+/*上部区域*/
   /*文字加粗*/
 .b{
 	font-weight: bold;
@@ -79,8 +80,9 @@
 .right-box{
 	margin: 25px 10px;
 }
-.right-box dd{
-	margin-left: 20px;
+.right-box dt{
+	width: 50px;
+	margin-right: 20px;
 }
    /*top--des*/
 .right-top{
@@ -92,6 +94,11 @@
 .right-top h3{
 	font-size: 16px;
 	font-family: "微软雅黑";
+	cursor: pointer;
+}
+.right-top h3:hover,
+.userPosition a:hover{
+	text-decoration: underline;
 }
 
 .right-box dt,.right-box dd{
@@ -131,14 +138,14 @@
 
 /*rightArea-middle*/
 .right-middle{
-	height: 300px;
 	background-color: #F2F2F2;
 	margin-top: 18px;
+	padding-bottom: 25px;
 }
 .right-middle dl{
 	margin-left: 15px;
 }
-
+	/*选择配送范围*/
 .right-middle dd,.right-middle dt{
 	float: left;
 }
@@ -152,3 +159,122 @@
 	margin-left: 0;
 }
 
+    /*选择颜色*/
+.right-select dt{
+	line-height: 34px;
+}
+.right-select dd a,
+.right-select-standerd dd a{
+	display: inline-block;
+	height: 32px;
+	border: 1px solid #CCCCCC;
+	line-height: 32px;
+	font-size: 12px;
+	padding: 0 28px;
+	margin-right: 10px;
+	background-color: #FFF;
+}
+.right-select-active{
+	border: 1px solid #317EE7 !important;
+}
+.right-select-standerd dd{
+	width: 550px;
+	margin-top: 16px;
+}
+.right-select-standerd dd a{
+	padding: 0 10px;
+	margin-bottom: 8px;
+	height: 24px;
+	line-height: 24px;
+	
+}
+.right-select-standerd dt{
+	line-height: 68px;
+}
+
+   /*计数器*/
+.right-select-amount dt{
+ 	line-height: 34px;
+ }
+ .right-select-amount dd,.right-select-amount dt{
+ 	margin-top: 0;
+ }
+    /*购买数量组件*/
+ .compent-amount{
+ 	border: 1px solid #CCC;
+ 	height: 32px;
+ 	width: 82px;
+ }
+ .compent-amount a,.compent-amount input{
+ 	display: inline-block;
+ 	text-align: center;
+ }
+ .compent-amount a{
+ 	width: 15px;
+ 	font-size: 16px;
+ 	line-height: 32px;
+
+ }
+ .compent-amount input{
+ 	width: 50px;
+ 	height: 32px;
+ 	border: 1px solid #CCC;
+ 	border-style: none solid;
+ }
+ .right-select-amount .dd-des{
+ 	line-height: 34px;
+ 	color: #666666;
+ 	margin-left: 10px;
+ }
+ .right-select-amount .dd-des span{
+ 	font-weight: bold;
+ 	color: #FC7700;
+ }
+ .compent-amount-unclick{
+ 	color: #CCC;
+ }
+
+ /*底部购买区*/ 
+ 		/*已选择信息*/
+ .right-bottom{
+ 	padding: 22px 20px;
+ }
+ .right-bottom-selected{
+ 	font-size: 12px;
+ }
+ .right-bottom-selected span{
+	color: #0479CA;
+ }
+ 		/*购买按钮*/
+ .buyButton-box{
+ 	padding: 15px 0;
+ 	height: 90px;
+ }
+ .button-box-add,
+ .button-box-buy{
+ 	height: 90px;
+ 	width: 313px;
+	float: left;
+ }
+ .button-box-add{
+ 	border-right: 1px solid #E5E5E5;
+ }
+ .buyButton-box input{
+ 	height: 50px;
+ 	width: 185px;
+ 	text-align: center;
+ 	text-indent: 2em;
+ 	color: #FFF;
+ 	margin:20px 0;
+ 	margin-left:70px;
+ 	font-size: 20px;
+ 	background: url(../images/icon/buyCar.jpg) no-repeat 30px center #F98700;
+ 	cursor: pointer;
+ }
+ .right-bottom-tips{
+ 	color: #999;
+ 	font-family: "宋体";
+ 	font-size: 12px;
+ }
+
+ /*下部区域*/
