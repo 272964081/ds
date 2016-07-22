@@ -278,3 +278,86 @@
  }
 
  /*下部区域*/
+ .bottom-box {
+	font-family: "新宋体";
+	margin-top: 20px;
+ }
+
+ /*左边*/
+ .bottom-box .leftArea{
+	width: 188px;
+ }
+ .left-item{
+ 	border:1px solid #CCC;
+	border-top: 0;
+	background-color: #FFF;
+	margin-bottom: 10px;
+ }
+ .onePixTop{
+ 	border-top: 1px solid #CCC !important;
+ }
+ 
+ .left-title{
+ 	height: 40px;
+ 	border-top: 2px solid #1D86CF;
+ 	border-bottom: 1px solid #CCC;
+ 	line-height: 40px;
+ 	text-indent: 1em;
+ 	background-color: #F3F3F3;
+ }
+ .product-item{
+ 	margin: 10px 20px;
+ 	padding-bottom: 10px;
+ }
+ .picBox a{
+ 	display: block;
+ 	width: 100%;
+ 	text-align: center;
+ }
+ .product-item p{
+ 	font-size: 12px;
+ 	color: #999;
+ }
+ .product-item span{
+ 	font-size: 12px;
+ 	color: #DE0000;
+ 	font-family: "微软雅黑";
+ 	line-height: 20px;
+ }
+
+/*右边*/
+.bottom-box .rightArea{
+ 	width: 788px;
+ 	background-color: #fff;
+ }
+ .rated{
+ 	border: 1px solid #CCC;
+ 	border-top: 0;
+ 	min-height: 300px;
+ }
+ .top-tab{
+ 	height: 40px;
+ 	width: 100%;
+ 	background-color: #F3F3F3;
+ 	border: 1px solid #CCC;
+ 	border-left: 0;
+ 	border-right:0;
+ }
+.top-tab li{
+	float: left;
+	width: 50%;
+}
+.top-tab li a{
+	color: #000;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	font-family: "宋体";
+	width: 100%;
+	display: inline-block;
+}
+.top-tab .active{
+	color: #FFF;
+	background-color: #0479CA;
+	font-weight: bold;
+}
