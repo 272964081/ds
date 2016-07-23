@@ -278,3 +278,192 @@
  }
 
  /*下部区域*/
+ .bottom-box {
+	font-family: "新宋体";
+	margin-top: 20px;
+ }
+
+ /*左边*/
+ .bottom-box .leftArea{
+	width: 188px;
+ }
+ .left-item{
+ 	border:1px solid #CCC;
+	border-top: 0;
+	background-color: #FFF;
+	margin-bottom: 10px;
+ }
+ .onePixTop{
+ 	border-top: 1px solid #CCC !important;
+ }
+ 
+ .left-title{
+ 	height: 40px;
+ 	border-top: 2px solid #1D86CF;
+ 	border-bottom: 1px solid #CCC;
+ 	line-height: 40px;
+ 	text-indent: 1em;
+ 	background-color: #F3F3F3;
+ }
+ .product-item{
+ 	margin: 10px 20px;
+ 	padding-bottom: 10px;
+ }
+ .picBox a{
+ 	display: block;
+ 	width: 100%;
+ 	text-align: center;
+ }
+ .product-item p{
+ 	font-size: 12px;
+ 	color: #999;
+ }
+ .product-item span{
+ 	font-size: 12px;
+ 	color: #DE0000;
+ 	font-family: "微软雅黑";
+ 	line-height: 20px;
+ }
+
+/*右边*/
+.bottom-box .rightArea{
+ 	width: 788px;
+ 	background-color: #fff;
+ }
+ .rated{
+ 	border: 1px solid #CCC;
+ 	border-top: 0;
+ 	min-height: 500px;
+ }
+ .top-tab{
+ 	height: 40px;
+ 	width: 100%;
+ 	background-color: #F3F3F3;
+ 	border: 1px solid #CCC;
+ 	border-left: 0;
+ 	border-right:0;
+ }
+.top-tab li{
+	float: left;
+	width: 50%;
+}
+.top-tab li a{
+	color: #000;
+	text-align: center;
+	line-height: 40px;
+	font-size: 14px;
+	font-family: "宋体";
+	width: 100%;
+	display: inline-block;
+}
+.top-tab .active{
+	color: #FFF;
+	background-color: #0479CA;
+	font-weight: bold;
+}
+.rated-star{
+	height: 160px;
+}
+.rated-star h4{
+	text-indent: 10px;
+	margin-top: 10px;
+	font-family: "新宋体";
+	color: #656565;
+}
+.rated-progress{
+	overflow: hidden;
+	margin-top: 20px;
+}
+.rated-progress-bar{
+	overflow: hidden;
+	margin-left: 10px;
+	position: relative;
+}
+.rated-point{
+	color: #65657D;
+	font-size: 18px;
+	margin-top: 10px;
+	height: 60px;
+	margin-left: 10px;
+}
+.rated-point span{
+	color: #FF8F00;
+	font-size: 50px;
+}
+.rated-progress-bar .bar{
+	background-color: #BDBDBD;
+	padding: 0 40px 0 10px;
+	
+}
+.rated-progress-bar .bar li{
+	float: left;
+	height: 16px;
+	color: #FFF;
+	font-size: 12px;
+	width: 70px;
+	text-align: center;
+}
+.rated-progress-bar .point{
+	color: #FFF;
+	height: 20px;
+	font-size: 12px;
+	text-align: center;
+	width: 27px;
+	position: relative;
+	left: 90%;
+	background: url(../images/icon/bg-progress.jpg) no-repeat;
+}
+.rated-progress-bar p{
+	font-size: 12px;
+	color: #65657D;
+}
+.hr-10{
+	margin-bottom: 13px;
+}
+.bar{
+	overflow: hidden;
+}
+.middle-tab{
+	height: 32px;
+	background-color: #F2F2F2;
+}
+.middle-tab li{
+	float: left;
+	width: 80px;
+	text-align: center;
+}
+.middle-tab a{
+	font-size: 12px;
+	color: #000;
+	line-height: 29px;
+	display: inline-block;
+}
+.middle-tab li .active{
+	border-bottom: 3px solid #317EE7;
+	color: #317EE7;
+	font-weight: bold;
+}
+.sort{
+	padding-right: 8px;
+}
+.sort a{
+	position: relative;
+	height: 20px;
+	line-height: 20px;
+	margin-top: 6px;
+	width: 73px;
+	text-align: left;
+	border: 1px solid #CDCDCD;
+	float: left;
+	border-right: 0;
+	border-bottom: 0;
+	background: url(../images/sort-arrow.jpg) 90% center no-repeat;
+}
+.sort .new{
+	height: 16px;
+	width: 28px;
+	background: url(../images/sort-new.png) no-repeat center center;
+	position: absolute;
+	top: -14px;
+	left:40%;
+}
