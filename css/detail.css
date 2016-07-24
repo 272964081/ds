@@ -373,13 +373,12 @@
 	color: #656565;
 }
 .rated-progress{
-	overflow: hidden;
 	margin-top: 20px;
 }
 .rated-progress-bar{
-	overflow: hidden;
 	margin-left: 10px;
 	position: relative;
+	top: 20px;
 }
 .rated-point{
 	color: #65657D;
@@ -407,13 +406,25 @@
 }
 .rated-progress-bar .point{
 	color: #FFF;
-	height: 20px;
+	height: 14px;
 	font-size: 12px;
 	text-align: center;
-	width: 27px;
-	position: relative;
+	width: 25px;
+	position: absolute;
 	left: 90%;
-	background: url(../images/icon/bg-progress.jpg) no-repeat;
+	top: -20px;
+	line-height: 14px;
+	background-color: #7F7F7F;
+	/*background: url(../images/icon/bg-progress.jpg) no-repeat;*/
+}
+.rated-progress-bar .point i{
+	border-width: 4px;
+	display: block;
+	margin: 0 auto;
+	border-style: solid dotted dotted dotted;
+	border-color: #7F7F7F transparent transparent transparent;
+	width: 0;
+	height: 0;
 }
 .rated-progress-bar p{
 	font-size: 12px;
@@ -437,6 +448,7 @@
 .middle-tab a{
 	font-size: 12px;
 	color: #000;
+	padding: 0 5px;
 	line-height: 29px;
 	display: inline-block;
 }
