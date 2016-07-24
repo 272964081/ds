@@ -328,7 +328,6 @@
 /*右边*/
 .bottom-box .rightArea{
  	width: 788px;
- 	background-color: #fff;
  }
  .rated{
  	border: 1px solid #CCC;
@@ -360,6 +359,9 @@
 	color: #FFF;
 	background-color: #0479CA;
 	font-weight: bold;
+}
+.rated{
+	background-color: #fff;
 }
 .rated-star{
 	height: 160px;
@@ -466,4 +468,209 @@
 	position: absolute;
 	top: -14px;
 	left:40%;
+}
+
+   /*用户评价部分*/
+.rated-item{
+	overflow: hidden;
+	padding: 18px 40px;
+	padding-right: 20px;
+}
+.user-pic,.user-pic img{
+	width: 60px;
+	height: 60px;
+}
+.user-name{
+	margin-top: 10px;
+}
+.user-name,
+.user-level{
+	color: #77778B;
+	font-size: 12px;
+	line-height: 17px;
+	text-align: center;
+}
+.user-rated{
+	width: 590px;
+	margin-left: 70px;
+}
+.user-rated a{
+	display: inline-block;
+	font-size: 12px;
+	color: #777777;
+	margin-right: 10px;
+	color: #075B9B;
+}
+.user-rated p{
+	line-height: 45px;
+	color: #777;
+}
+.user-rated-star{
+	width: 100%;
+	overflow: hidden;
+}
+.user-rated-star h5{
+	float: left;
+	margin-bottom: 10px;
+}
+.user-rated-star .time{
+	float: right;
+	font-size: 12px;
+	line-height: 17px;
+}
+.user-rated-star span{
+	width: 73px;
+	height: 20px;
+	display: inline-block;
+	float: left;
+	background: url(../images/user/star.jpg) repeat-x left center;
+	margin-right: 10px;
+}
+/*页码区域*/
+.pagesBox{
+	height: 40px;
+	padding-left: 150px;
+	padding-right: 40px;
+}
+.pagesBox li{
+	float: left;
+	height: 25px;
+	margin-right: 8px;
+	margin-top: 7px;
+}
+.pagesBox li a{
+	color: black;
+	padding: 0 9px;
+	display: block;
+	line-height: 18px;
+	border: 1px solid #C9C9C9;
+}
+.pagesBox input{
+	font-size: 12px !important;
+	width: 35px;
+	height: 20px;
+	text-align: center;
+	color: #666666;
+	border: 1px solid #C9C9C9;
+}
+.pagesBox-jump{
+	margin-top: 7px;
+	color: #666666;
+	font-size: 12px !important;
+}
+.pagesBox-jump button{
+	font-size: 12px ;
+	color: #666666;
+	border: 1px solid #C9C9C9;
+	background-color: #E8E8E8;
+	margin-left: 10px;
+	cursor: pointer;
+}
+/*不可点击状态*/
+.unClick{
+	color: #666 !important;
+	cursor:default; 
+}
+/*点击后的状态*/
+.pagesBox-active{
+	background-color: #E9E9E9 !important;
+	color: #D95A5A !important;
+	border: 1px solid #D3D3D3 !important;
+	font-weight: bold;
+}
+
+/*咨询部分*/
+.ask{
+	overflow: hidden;
+	margin-top: 15px;
+	background-color: #fff;
+}
+.ask-tab{
+	height: 35px;
+}
+.ask-tab a{
+	display: block;
+	height: 35px;
+	color: #076DBB;
+	line-height: 35px;
+
+}
+.ask-tab .all{
+	padding: 0 12px;
+	border: 1px solid #076DBB;
+	border-bottom: 0;
+	font-weight: bold;
+}
+.ask-tab .publish{
+	padding: 0 12px;
+}
+.ask-tab .publish-box{
+	width: 669px;
+	border-bottom: 1px solid #076DBB;
+}
+
+/*咨询内容*/
+.ask-warning-box{
+	margin: 12px 20px;
+	background-color: #F3F3F3;
+}
+.ask-warning{
+	padding: 0 20px;
+	font-size: 12px;
+	color: #777;
+	line-height: 25px;
+}
+.ask .ask-item{
+	overflow: hidden;
+	padding: 30px 0;
+}
+.ask-item .user-info{
+	margin-left: 65px;
+}
+.ask .user-pic{
+	width: 60px;
+	height: 37px;
+	text-align: center;
+}
+.ask .user-pic img{
+	width: 37px;
+	height: 37px;
+	vertical-align: middle;
+}
+.user-ask-content h5{
+	color: #000;
+	line-height: 25px;
+}
+.user-ask-content p{
+	line-height: 35px;
+}
+.user-ask-content{
+	width: 603px;
+	color: #777777;
+	padding: 0 30px;
+}
+.ask-item .reply span{
+	color: #000;
+	margin-right: 10px;
+}
+.ask-item .time{
+	float: right;
+	font-size: 12px;
+	line-height: 25px;
+	font-weight: normal;
+	color: #ABABAB;
+}
+.ask-item .reply{
+	padding: 25px 50px;
+	background-color: #F1F1F1;
+}
+.user-ask-content .arrow{
+	position: relative;
+	left: 30px;
+	height: 5px;
+	width: 9px;
+	background: url(../images/ask-arrow.jpg) no-repeat center center;
+}
+.ask .pagesBox{
+	padding-left: 280px;
 }
