@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车和结算页</title>
+	<link rel="stylesheet" href="css/reset.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="css/account.css" type="text/css">
+
+	
+</head>
+<body class="grey_bg">
+	<div class="header">
+		<div class="topBar">
+			<div class="comWidth">
+				<div class="leftBar fl">
+					<div class="collection"><a href="#">收藏慕课</a></div>
+				</div>
+				<div class="rightBar fr">欢迎来到慕课网！<a href="#">[登录]</a><a href="#">[免费注册]</a></div>
+			</div>
+		</div> <!-- topBar end -->
+		<div class="logo">
+			<div class="comWidth">
+				<div class="logo_icon fl">
+					<a href="#"><img src="images/logo.jpg" alt="慕课网"></a>
+				</div>
+				<div class="step-box fr">
+					<div class="step">
+						<img src="images/account-step.jpg" alt="完成进度条">
+					</div>
+					<a href="#" class="mycar active">我的购物车</a>
+					<a href="#" class="check active">填写核对订单</a>
+					<a href="#" class="complete">提交订单成功</a>
+				</div>
+				
+			</div>
+		</div> <!-- logo end -->
+		<div class="nav">
+			<div class="comWidth">
+				<div class="shopClass fl">
+					<h3>全部商品分类</h3>
+					
+				</div> <!-- shopClass end -->
+				<div class="nav-list fl">
+					<ul >
+						<li><a href="#" >数码城</a></li>
+						<li><a href="#">天黑黑</a></li>
+						<li><a href="#">团购</a></li>
+						<li><a href="#" >发现</a></li>
+						<li><a href="#" class="nav-active">二手特卖</a></li>
+						<li><a href="#">名品会</a></li>
+					</ul>
+				</div>
+			</div>
+		</div> <!-- nav end -->
+	</div> <!-- header end -->
+
+	<div class="mainContent comWidth">
+		<div class="list-info-item">
+			<h4 class="title">收货信息</h4>
+			<div class="content">
+				<label>*<span>选择地区:</span><select name="address" id="select-address">
+					<option value="1">重庆市 九龙坡区</option>
+					<option value="1">重庆市 江北区</option>
+				</select></label>
+				<label class="detail-add">*<span>详细地址:</span><input placeholder="只能填入26个汉字" type="text" name="detail-add"></label>
+				<label class="consignee">*<span>收&nbsp;&nbsp;货&nbsp;&nbsp;人:</span><input placeholder="只能填入10个汉字" type="text" name="consignee"></label>
+				<label class="phone-num">*<span>手&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;机:</span><input placeholder="如13212325263" type="text" name="phone-num">
+					<span>或固定电话:</span><input placeholder="区号" type="text" ><em>-</em>
+					<input placeholder="电话号码" type="text" ><em>-</em>
+					<input placeholder="分机号(可选)" type="text" >
+				</label>
+				<button class="btn-confirm">确认收货地址</button>
+			</div>
+		</div>
+		<div class="list-info-item">
+			<h4 class="title">支付方式</h4>
+			<div class="content pay">
+				<form action="#">
+					<label >
+						<input type="radio" name="pay"><em>微信支付</em><img src="images/icon/wx.jpg" alt="微信图标">用微信扫一扫就能支付!
+					</label>
+					<label >
+						<input type="radio" name="pay"><em>货到支付</em>送货上门后再付款,现金或者刷卡,千万别点要收手续费!
+					</label>
+				</form>
+
+			</div>
+		</div>
+		<div class="list-info-item">
+			<h4 class="title">发票信息</h4>
+			<div class="content bill">
+
+				<form action="#">
+					<label ><input type="checkbox" checked>需要发票</label>
+					<label><em>*</em><span>发票类型:</span><select name="bill" id="select-bill-type">
+						<option value="1">商业零售发票</option>
+						<option value="2">增值税发票</option>
+					</select></label>
+					<label><em>*</em><span>发票抬头:</span><select name="bill" id="select-bill-title">
+						<option value="1">个人</option>
+						<option value="2">单位</option>
+					</select>
+					<input type="text" placeholder="郎爷爷">
+				</label>
+				<input type="button" value="保存" name="save"><input type="button" value="取消" name="cancel">
+			</form>
+
+		</div>
+	</div>
+	<div class="list-info-item cl">
+		<h4 class="title">送货清单<a href="#">返回购物车修改</a></h4>
+		<div class="content-title">
+			<div class="product-title">
+				<dl>
+					<dt>商品名称</dt>
+					<dd>单价</dd>
+					<dd>返现</dd>
+					<dd>数量</dd>
+					<dd>小计</dd>
+				</dl>
+			</div>
+			<div class="product-content">
+				
+					<div class="product-img-box fl">
+						<a href="#"><img src="images/product-info.jpg" alt="产品详情"></a>
+					</div>
+					<div class="product-des fl">
+						<div class="product-name fl">
+						<a href="#">海信烂货一大堆</a>
+						<span>￥1459.00</span>
+						<span>￥1.00</span>
+						<span>1</span>
+						<span>￥1459.00</span>
+						</div>
+						<div class="product-gift"><a href="#" >[赠品]垃圾袋一车</a></div>
+					</div>
+				
+			</div>
+		</div>
+	</div>
+</div><!-- mainContent end -->
+<div class="footer cl">
+	<div class="copy-info">
+		<p><a href="#">慕课简介|</a><a href="#">慕课公告 |</a><a href="#">招纳贤士 |</a><a href="#">联系我们 |</a>客服热线：400-675-1234</p>
+		<p>Copyright&copy;2006-2016 慕课学生版权所有   京ICP备09037834号   京ICP证B1034-8373号   某市公安局XX分局备案编号：123456789123</p>
+	</div>
+	<div class="copy-images">
+		<a href="#"><img src="images/icon/copy-img.jpg" alt="版权区图片"></a>
+		<a href="#"><img src="images/icon/copy-img.jpg" alt="版权区图片"></a>
+		<a href="#"><img src="images/icon/copy-img.jpg" alt="版权区图片"></a>
+		<a href="#"><img src="images/icon/copy-img.jpg" alt="版权区图片"></a>
+	</div>
+
+</div>
+
+</body>
+</html>
