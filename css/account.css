@@ -1,0 +1,204 @@
+.step-box{
+	height: 85px;
+	padding-right: 55px;
+	padding-top: 25px;
+}
+.step-box a{
+	display: block;
+	float: left;
+}
+.step{
+	margin: 0 auto;
+}
+.step-box .check{
+	margin-left: 100px;
+}
+.step-box .complete{
+	margin-left: 75px;
+}
+.step-box .active{
+	font-weight: bold;
+	color: #E5DD45;
+}
+
+/*信息核对表单*/
+.list-info-item{
+	border: 1px solid #CCCCCC;
+	margin-top: 12px;
+	margin-bottom: 20px;
+}
+.list-info-item .title{
+	background-color: #F4F4F4;
+	height: 31px;
+	line-height: 31px;
+	text-indent: 12px;
+	font-weight: normal;
+	font-size: 16px;
+	border-bottom:  1px solid #CCCCCC;
+}
+.content{
+	padding: 15px 30px;
+}
+.content label{
+	display: block;
+	margin: 10px 0;
+	color: red;
+	height: 24px;
+}
+.content span{
+	margin-left: 8px;
+	margin-right: 10px;
+	color: #000;
+	display: inline-block;
+	/*width: 60px;*/
+	text-align: justify;
+
+}
+.content em{
+	color: #000;
+}
+.content select{
+	border: 1px solid #BFBFBF;
+	padding-left: 10px;
+}
+.content select option{
+	padding-left: 10px;
+}
+.content  input[type="text"]{
+	height: 22px;
+	font-size: 12px;
+	width: 390px;
+	border: 1px solid #BFBFBF;
+	text-indent: 10px;
+}
+
+.content .consignee input,
+.content .phone-num input{
+	width: 120px;
+}
+.content .btn-confirm{
+	width: 112px;
+	height: 26px;
+	border: 1px solid #3784ED;
+	background-color: #4694FE;
+	margin-top: 12px;
+	color: #FFF;
+	cursor: pointer;
+}
+/*支付方式*/
+
+.list-info-item .pay label,
+.list-info-item .bill label{
+	color: #000;
+}
+.list-info-item .pay input{
+	margin-right: 10px;
+}
+.list-info-item .pay img{
+	width: 26px;
+	height: 20px;
+	vertical-align:middle;
+	margin-right: 7px;
+	
+}
+.list-info-item .pay em{
+	margin-right: 19px;
+	font-style: normal;
+}
+/*发票信息*/
+.list-info-item .bill input[type="checkbox"]{
+	margin-right: 10px;
+	vertical-align: middle;
+}
+.list-info-item .bill em{
+	color: red;
+	font-style: normal;
+}
+.list-info-item .bill input[type="text"]{
+	width: 140px;
+}
+.list-info-item .bill input[type="button"]{
+	height: 22px;
+	width: 64px;
+	margin-left: 10px;
+	font-size: 12px;
+	line-height: 20px;
+}
+.list-info-item .bill input[name="save"]{
+	color: #FFF;
+	text-align: center;
+	background-color: #4694FE;
+	border: 1px solid #3784ED;
+}
+.list-info-item .bill input[name="cancel"]{
+	text-align: center;
+	background-color: #F4F4F4;
+	border: 1px solid #CCCCCC;
+}
+
+/*送货清单*/
+.title a{
+	display: block;
+	float: right;
+	color: #3377FF;
+	font-size: 12px;
+	line-height: 31px;
+	padding-right: 33px;
+}
+.product-title{
+	height: 34px;
+	border-bottom: 1px solid #E6E6E6;
+	padding-left: 30px;
+}
+.product-title dt,
+.product-title dd{
+	display: inline-block;
+	line-height: 34px;
+	color: #666666;
+}
+.product-title dt{
+	margin-right: 280px;
+}
+.product-title dd{
+	margin-left: 110px;
+}
+.product-content{
+	height: 99px;
+	border-bottom: 1px solid #E6E6E6;
+}
+.product-img-box{
+	height: 100%;
+	width: 120px;
+}
+.product-img-box a{
+	display: block;
+	line-height: 99px;
+	height: 100%;
+	position: relative;
+}
+.product-img-box a img{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right:0;
+	margin: auto auto;
+}
+.product-des{
+	height: 100%;
+}
+.product-des a,
+.product-des span{
+	font-size: 12px;
+}
+.product-des span{
+	display: inline-block;
+	width: 135px;
+	float: right;
+}
+.product-name{
+	margin-top: 13px;
+}
+.product-gift{
+	margin-top: 35px;
+}
