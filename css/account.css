@@ -150,55 +150,115 @@
 	border-bottom: 1px solid #E6E6E6;
 	padding-left: 30px;
 }
-.product-title dt,
-.product-title dd{
-	display: inline-block;
+/*.list-info-item .list-content{
+	min-height: 300px;
+}*/
+.list-info-item .list-content li{
+	float: left;
+}
+.content-title{
+	height: 34px;
+	border-bottom: 1px solid #CCC;
 	line-height: 34px;
-	color: #666666;
+	width: 132px;
 }
-.product-title dt{
-	margin-right: 280px;
+.content-name{
+	width: 470px;
+	text-indent: 30px;
 }
-.product-title dd{
-	margin-left: 110px;
+
+/*价格加粗*/
+.contentInfo-box .price{
+	color: #DE0000;
+	font-family: "Verdana";
+	font-weight: bold;
 }
-.product-content{
-	height: 99px;
-	border-bottom: 1px solid #E6E6E6;
-}
-.product-img-box{
-	height: 100%;
-	width: 120px;
-}
-.product-img-box a{
-	display: block;
-	line-height: 99px;
-	height: 100%;
+.contentInfo-box {
 	position: relative;
+	padding: 9px 0;
+	min-height: 100px;
+	border-bottom: 1px solid #CCC;
 }
-.product-img-box a img{
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right:0;
-	margin: auto auto;
+.contentInfo-box img{
+	margin: 9px 30px;
 }
-.product-des{
-	height: 100%;
+.contentInfo-box a{
+	line-height: 35px;
 }
-.product-des a,
-.product-des span{
-	font-size: 12px;
+.contentInfo-box p{
+	color: #666666;
+	line-height: 35px;
 }
-.product-des span{
-	display: inline-block;
-	width: 135px;
-	float: right;
+.bottom{
+	margin-top: 23px;
 }
-.product-name{
-	margin-top: 13px;
+.color-b{
+	color: #000;
 }
-.product-gift{
-	margin-top: 35px;
+
+
+.warning-info{
+	overflow: hidden;
+}
+.warning-tips{
+	padding: 12px 30px;
+	overflow: hidden;
+}
+.tips{
+	color: #3377FF;
+}
+.tips:hover{
+	text-decoration: underline;
+}
+.warning{
+	color: red;
+	margin-top: 30px;
+	text-indent: 25px;
+	background: url(../images/icon/warning.jpg) no-repeat left center;
+}
+.warning-info img{
+	margin-top: 24px;
+	margin-right: 10px;
+	float: left;
+}
+.warning-info .des{
+	padding-top: 24px;
+}
+.warning-info .des a,
+.warning-info .des p{
+	display: block;
+	color: #666666;
+	line-height: 16px;
+	padding-bottom: 5px;
+}
+/*缺货原因样式*/
+.reason{
+	color: #D70000;
+	font-weight: bold;
+}
+
+/*提交订单*/
+.confirm-submit{
+	overflow: hidden;
+	height: 140px;
+}
+.subinfo{
+	margin-top: 40px;
+	text-align: right;
+}
+.total span{
+	font-size: 22px;
+	margin-left: 8px;
+	font-family: "Verdana";
+	color: #E50007;
+}
+.subinfo input[type="button"]{
+	height: 32px;
+	width: 165px;
+	text-indent: 50px;
+	color: #FFF;
+	background-color: #E50007;
+	margin-top: 15px;
+	font-size: 16px;
+	cursor: pointer;
 }
