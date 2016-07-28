@@ -1,0 +1,62 @@
+.comWidth{
+	width: 630px;
+	min-height: 300px;
+}
+.logo h2{
+	color: #FFF;
+	float: left;
+	font-size: 22px;
+	padding-left: 25px;
+	font-weight: normal;
+	line-height: 85px;
+}
+.regBox{
+	border: 1px solid #CCC;
+	margin-top: 10px;
+}
+.regBox input{
+	border: 1px solid #CCC;
+	width: 270px;
+	height: 36px;
+	margin-left: 20px;
+}
+.input-item .username{
+	background: url(../images/icon/login-id.jpg) 95% center no-repeat;
+}
+.regBox input[type='password']{
+	background: url(../images/icon/login-password.jpg) 95% center no-repeat;
+}
+.input-item{
+	text-align: right;
+	margin-top: 31px;
+	color: #999999;
+	margin-right: 150px;
+}
+.input-item span{
+	color: red;
+	margin-right: 5px;
+}
+.agreement{
+	text-align: center;
+	margin-top: 50px;
+}
+.agreement input{
+	width: auto;
+	vertical-align: middle;
+	margin-right: 5px;
+}
+.agreement a{
+	color: #005AA0;
+}
+.submit-btn{
+	text-align: center;
+	margin-top: 30px;
+
+}
+.submit-btn input{
+	height: 36px;
+	border: solid 1px #DDDDDD;
+	font-weight: bold;
+	background: url(../images/icon/bg-submit-btn2.gif) repeat-x left center;
+	margin-bottom: 55px;
+}
